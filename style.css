@@ -1,5 +1,7 @@
 h1 {
     color: white;
+    margin-left:30px;
+    
 }
 
 /* * {
@@ -31,4 +33,53 @@ h1 {
 
 p,h2{
     text-align: center;
+}
+
+.games{
+    border: 2px solid blue;
+    border-radius:  5px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+.header * {
+    border: solid;
+}
+
+.menu{
+    margin-right: 20px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+a:link{
+    color: honeydew;
+}
+
+a:visited{
+    color: orange;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+p{
+    font-size: large;
+    color:orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.item:hover img{
+    opacity:0.33;
 }
